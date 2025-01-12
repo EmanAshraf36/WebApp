@@ -1,6 +1,3 @@
-@using WebApp.Models
-@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
-
 @model List<Category>
 
 @{
@@ -29,4 +26,5 @@
         }
         </tbody>
     </table>
+    <a class = "btn btn-primary" asp-controller="Categories" asp-action="add">Add</a>
 }

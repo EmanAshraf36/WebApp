@@ -26,3 +26,4 @@
 /Users/emyashraf/RiderProjects/WebApp/WebApp/bin/Debug/net8.0/WebApp.staticwebassets.runtime.json
 /Users/emyashraf/RiderProjects/WebApp/WebApp/obj/Debug/net8.0/WebApp.RazorAssemblyInfo.cache
 /Users/emyashraf/RiderProjects/WebApp/WebApp/obj/Debug/net8.0/WebApp.RazorAssemblyInfo.cs
+/Users/emyashraf/RiderProjects/WebApp/WebApp/obj/Debug/net8.0/WebApp.sourcelink.json
