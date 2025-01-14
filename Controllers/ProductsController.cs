@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using WebApp.Models;
 
 namespace WebApp.Controllers;
 
@@ -7,6 +8,7 @@ public class ProductsController : Controller
     // GET
     public IActionResult Index()
     {
-        return View();
+        var products = ProductsRepository.GetProducts(loadCategory:true);
+        return View(products);
     }
 }
