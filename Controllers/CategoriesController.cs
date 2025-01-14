@@ -13,6 +13,7 @@ public class CategoriesController : Controller
     [HttpGet]
     public IActionResult Edit(int? id)
     {
+        ViewBag.Action = "edit";
         var category = CategoriesRepository.GetCategoryById(id.HasValue?id.Value:0);
                 return View(category);
     }
@@ -22,10 +23,17 @@ public class CategoriesController : Controller
     {
         if(ModelState.IsValid)
         {
+            ViewBag.Action = "edit";
             CategoriesRepository.UpdateCategory(category.CategoryId, category);
             return RedirectToAction("Index");
         }
         return View(category);
+    }
+    [HttpGet]
+    public IActionResult Add()
+    {
+        ViewBag.Action = "add";
+        return View();
     }
     [HttpPost]
     public IActionResult Add(Category category)
@@ -36,5 +44,12 @@ public class CategoriesController : Controller
             return RedirectToAction("Index");
         }
         return View(category);
+    }
+    
+    public IActionResult Delete(int categoryId)
+    {
+        CategoriesRepository.DeleteCategory(categoryId);
+        return RedirectToAction("Index");
+        
     }
 }
