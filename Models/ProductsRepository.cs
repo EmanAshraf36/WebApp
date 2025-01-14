@@ -36,7 +36,7 @@ public class ProductsRepository
         return null;
     }
 
-    public static void deleteProduct(int productId)
+    public static void DeleteProduct(int productId)
     {
         var product = _products.FirstOrDefault(x => x.ProductId == productId);
         if (product != null)
