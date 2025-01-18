@@ -1,6 +1,12 @@
-@model TModel
+@model ProductViewModel
 
-@{
-    Layout = null;
+@section title{
+    @if (Model != null)
+    {
+        <h3>Product: @Model.Product?.Name</h3>
+    }
 }
-
+@if (Model != null)
+{
+    <partial name="_Product" model="Model"/>
+}

@@ -43,6 +43,7 @@ public class CategoriesController : Controller
             CategoriesRepository.AddCategory(category);
             return RedirectToAction("Index");
         }
+        ViewBag.Action = "add";
         return View(category);
     }
     

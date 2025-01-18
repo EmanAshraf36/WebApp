@@ -55,8 +55,24 @@ public class ProductsRepository
             {
                 prod.Category = CategoriesRepository.GetCategoryById(prod.CategoryId.Value);
             }
+            return prod;
         }
+
         return null;
+    }
+
+    public static void UpdateProduct(int productId, Product product)
+    {
+        if (productId != product.ProductId) return;
+        
+        var productToUpdate = _products.FirstOrDefault(x => x.ProductId == productId);
+        if (productToUpdate != null)
+        {
+            productToUpdate.Name = product.Name;
+            productToUpdate.Quantity = product.Quantity;
+            productToUpdate.Price = product.Price;
+            productToUpdate.CategoryId = product.CategoryId;
+        }
     }
 
     public static void DeleteProduct(int productId)
