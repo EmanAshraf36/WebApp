@@ -57,6 +57,12 @@ public class ProductsController : Controller
         productViewModel.Categories = CategoriesRepository.GetCategories();
         return View(productViewModel);
     }
+
+    public IActionResult Delete(int id)
+    {
+        ProductsRepository.DeleteProduct(id);
+        return RedirectToAction("Index");
+    }
     
 }
 
