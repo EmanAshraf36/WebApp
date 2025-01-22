@@ -63,6 +63,13 @@ public class ProductsController : Controller
         ProductsRepository.DeleteProduct(id);
         return RedirectToAction("Index");
     }
+
+    public IActionResult ProductsByCategoryPartial(int categoryId)
+    {
+        var products = ProductsRepository.GetProductsByCategoryId(categoryId);
+        return PartialView("_Products", products);
+        //the View name and the model name
+    }
     
 }
 

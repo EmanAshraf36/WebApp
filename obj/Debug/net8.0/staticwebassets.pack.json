@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "/Users/emyashraf/RiderProjects/WebApp/WebApp/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
       "Id": "/Users/emyashraf/RiderProjects/WebApp/WebApp/wwwroot/lib/bootstrap/css/bootstrap-grid.css",
       "PackagePath": "staticwebassets/lib/bootstrap/css/bootstrap-grid.css"
     },

@@ -7,7 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Wwwroot\lib\bootstrap\" />
+      <Folder Include="wwwroot\" />
     </ItemGroup>
 
 </Project>
