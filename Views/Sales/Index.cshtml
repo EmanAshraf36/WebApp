@@ -16,7 +16,7 @@
         @* Category selection *@
         <select asp-for="SelectedCategoryId" class="form-control">
             <option>- Please Select -</option>
-            @if (Model.Categories != null && Model.Categories.Count() > 0)
+            @if (Model.Categories != null && Model.Categories.Any())
             {
                 @foreach (var cat in Model.Categories)
                 {

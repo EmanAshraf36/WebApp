@@ -1,6 +1,6 @@
 @model IEnumerable<Product>
 
-@if (Model != null && Model.Count() > 0)
+@if (Model.Any())
 {
     <table class = "table table-striped">
         <thead>
