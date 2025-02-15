@@ -1,6 +1,7 @@
 tr.highlight > td {
     background-color: yellow;
 }
+<!-comment->
 @media print{
     body * {
         visibility: hidden;
