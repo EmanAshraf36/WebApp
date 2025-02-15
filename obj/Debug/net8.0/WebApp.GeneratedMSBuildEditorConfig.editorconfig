@@ -9,71 +9,79 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebApp
 build_property.RootNamespace = WebApp
-build_property.ProjectDir = /Users/emyashraf/RiderProjects/WebApp/WebApp/
+build_property.ProjectDir = /Users/mahmoudeAswaaq/RiderProjects/WebApp/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/emyashraf/RiderProjects/WebApp/WebApp
+build_property.MSBuildProjectDirectory = /Users/mahmoudeAswaaq/RiderProjects/WebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/emyashraf/RiderProjects/WebApp/WebApp/Views/Categories/Add.cshtml]
+[/Users/mahmoudeAswaaq/RiderProjects/WebApp/Views/Categories/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmllcy9BZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/emyashraf/RiderProjects/WebApp/WebApp/Views/Categories/Edit.cshtml]
+[/Users/mahmoudeAswaaq/RiderProjects/WebApp/Views/Categories/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmllcy9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/emyashraf/RiderProjects/WebApp/WebApp/Views/Categories/Index.cshtml]
+[/Users/mahmoudeAswaaq/RiderProjects/WebApp/Views/Categories/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmllcy9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/emyashraf/RiderProjects/WebApp/WebApp/Views/Categories/_Category.cshtml]
+[/Users/mahmoudeAswaaq/RiderProjects/WebApp/Views/Categories/_Category.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmllcy9fQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/emyashraf/RiderProjects/WebApp/WebApp/Views/Home/Index.cshtml]
+[/Users/mahmoudeAswaaq/RiderProjects/WebApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/emyashraf/RiderProjects/WebApp/WebApp/Views/Products/Add.cshtml]
+[/Users/mahmoudeAswaaq/RiderProjects/WebApp/Views/Products/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/emyashraf/RiderProjects/WebApp/WebApp/Views/Products/Edit.cshtml]
+[/Users/mahmoudeAswaaq/RiderProjects/WebApp/Views/Products/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/emyashraf/RiderProjects/WebApp/WebApp/Views/Products/Index.cshtml]
+[/Users/mahmoudeAswaaq/RiderProjects/WebApp/Views/Products/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/emyashraf/RiderProjects/WebApp/WebApp/Views/Products/_Product.cshtml]
+[/Users/mahmoudeAswaaq/RiderProjects/WebApp/Views/Products/_Product.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvX1Byb2R1Y3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/emyashraf/RiderProjects/WebApp/WebApp/Views/Products/_Products.cshtml]
+[/Users/mahmoudeAswaaq/RiderProjects/WebApp/Views/Products/_Products.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvX1Byb2R1Y3RzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/emyashraf/RiderProjects/WebApp/WebApp/Views/Sales/Index.cshtml]
+[/Users/mahmoudeAswaaq/RiderProjects/WebApp/Views/Sales/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2FsZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/emyashraf/RiderProjects/WebApp/WebApp/Views/Sales/_SellProduct.cshtml]
+[/Users/mahmoudeAswaaq/RiderProjects/WebApp/Views/Sales/_SellProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2FsZXMvX1NlbGxQcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/emyashraf/RiderProjects/WebApp/WebApp/Views/Shared/_Layout.cshtml]
+[/Users/mahmoudeAswaaq/RiderProjects/WebApp/Views/Shared/Components/Transactions/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvVHJhbnNhY3Rpb25zL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mahmoudeAswaaq/RiderProjects/WebApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/emyashraf/RiderProjects/WebApp/WebApp/Views/_ViewImports.cshtml]
+[/Users/mahmoudeAswaaq/RiderProjects/WebApp/Views/Transactions/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHJhbnNhY3Rpb25zL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mahmoudeAswaaq/RiderProjects/WebApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/emyashraf/RiderProjects/WebApp/WebApp/Views/_ViewStart.cshtml]
+[/Users/mahmoudeAswaaq/RiderProjects/WebApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/Users/emyashraf/.nuget/packages/": {}
+    "/Users/mahmoudeAswaaq/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/emyashraf/RiderProjects/WebApp/WebApp/WebApp.csproj",
+      "projectUniqueName": "/Users/mahmoudeAswaaq/RiderProjects/WebApp/WebApp.csproj",
       "projectName": "WebApp",
-      "projectPath": "/Users/emyashraf/RiderProjects/WebApp/WebApp/WebApp.csproj",
-      "packagesPath": "/Users/emyashraf/.nuget/packages/",
-      "outputPath": "/Users/emyashraf/RiderProjects/WebApp/WebApp/obj/",
+      "projectPath": "/Users/mahmoudeAswaaq/RiderProjects/WebApp/WebApp.csproj",
+      "packagesPath": "/Users/mahmoudeAswaaq/.nuget/packages/",
+      "outputPath": "/Users/mahmoudeAswaaq/RiderProjects/WebApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/emyashraf/.nuget/NuGet/NuGet.Config"
+        "/Users/mahmoudeAswaaq/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -67,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/Users/mahmoudeAswaaq/.dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
