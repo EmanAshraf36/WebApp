@@ -1,3 +1,4 @@
+@using System.Numerics
 @model SalesViewModel
 
 @section title {
@@ -45,9 +46,12 @@
                 <input type="submit" class="btn btn-primary" value="Submit"/>
             </div>
         </form>
+        <p>Quantity to Sell: @Model.QuantityToSell</p>
     </div>
     <div class="col">
         @* List of transactions *@
+        @await Component.InvokeAsync( "Transactions","Cashier1")
+        
     </div>
 </div>
 

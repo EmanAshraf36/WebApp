@@ -1,0 +1,42 @@
+@model IEnumerable<Transaction>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Cashier Name</th>
+            <th>Product Name</th>
+            <th>Date Time</th>
+            <th>Qty Before</th>
+            <th>Qty Sold</th>
+            <th>Qty After</th>
+            <th>Sold Amt</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var tran in Model)
+        {
+            <tr>
+                <td>@tran.CashierName</td>
+                <td>@tran.ProductName</td>
+                <td>@tran.TimeStamp.ToString("MM/dd hh:mm")</td>
+                <td>@tran.BeforeQty</td>
+                <td>@tran.SoldQty</td>
+                <td>@(tran.BeforeQty - tran.SoldQty)</td>
+                <td>@(string.Format("{0:c}", tran.SoldQty * tran.Price))</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No transactions found.</p>
+}
+
+<script>
+    window.onload = function() {
+        console.log("Transactions loaded:", document.querySelectorAll("table tbody tr").length);
+    };
+</script>
